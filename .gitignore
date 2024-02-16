@@ -1,2 +1,4 @@
 /.cpcache/
-/.nrepl-port
+/.nrepl-port/
+/.clj-kondo/
+/.lsp
