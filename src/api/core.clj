@@ -3,6 +3,4 @@
 
 (defn main [opts]
   (pp/pprint opts)
-  (println "Hello, World!"))
-
-(main {:name "John Doe"})
+  (println "Hello, World! And everyone else!"))
