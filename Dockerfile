@@ -1,6 +1,6 @@
-FROM clojure:temurin-21-tools-deps-1.11.1.1435-alpine
+FROM clojure:temurin-21-tools-deps-1.11.1.1435-jammy
 
-mkdir /build
+RUN mkdir /build
 WORKDIR /build
 COPY . /build
 
